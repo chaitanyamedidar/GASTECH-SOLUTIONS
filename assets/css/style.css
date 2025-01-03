@@ -1,13 +1,8 @@
-/**
-* Template Name: Amoeba - v2.0.0
-* Template URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
+
+/*
 # General
---------------------------------------------------------------*/
+*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #777;
@@ -26,9 +21,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Lato", sans-serif;
 }
 
-/*--------------------------------------------------------------
+/*
 # Back to top button
---------------------------------------------------------------*/
+*/
 .back-to-top {
   position: fixed;
   display: none;
@@ -56,9 +51,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: background 0.2s ease-in-out;
 }
 
-/*--------------------------------------------------------------
+/*
 # Header
---------------------------------------------------------------*/
+*/
 #header {
   height: 80px;
   transition: all 0.5s;
@@ -69,9 +64,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background:rgba(0, 0, 0, 0.95);
+  background:rgba(0, 0, 0, 0.9);
   height: 60px;
   padding: 10px 0;
+  
   
 }
 
@@ -93,6 +89,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 0;
   margin: 0;
   max-height: 100px;
+  
+  align-self: center;
+  display: inline-block;
+  bottom: 0px;
+  margin-top: 5px;
+  
+
 }
 
 @media (max-width: 768px) {
@@ -104,9 +107,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 
 
-/*--------------------------------------------------------------
+/*
 # Navigation Menu
---------------------------------------------------------------*/
+*/
 /* Desktop Navigation */
 .nav-menu, .nav-menu * {
   margin: 0;
@@ -320,9 +323,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
+/*
 # Hero Section
---------------------------------------------------------------*/
+*/
 #hero {
   width: 100%;
   height: 75vh;
@@ -439,9 +442,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   }
 }
 
-/*--------------------------------------------------------------
+/*
 # Sections General
---------------------------------------------------------------*/
+*/
 section {
   padding: 60px 0;
 }
@@ -468,9 +471,9 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
+/*
 # About Us
---------------------------------------------------------------*/
+*/
 .about h3 {
   font-weight: 400;
   font-size: 26px;
@@ -495,9 +498,9 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
+/*
 # Services
---------------------------------------------------------------*/
+*/
 .services .icon-box {
   margin-bottom: 20px;
   text-align: center;
@@ -535,9 +538,9 @@ section {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
+/*
 # Call To Action
---------------------------------------------------------------*/
+*/
 .call-to-action {
   background: linear-gradient(rgba(30, 30, 30, 0.881),rgb(30, 30, 30,0.881)), url("../img/office.jpg") fixed center center;
   background-size: cover;
@@ -573,9 +576,9 @@ section {
   border: 2px solid #203954;
 }
 
-/*--------------------------------------------------------------
+/*
 # Our Portfolio
---------------------------------------------------------------*/
+*/
 .portfolio {
   padding: 60px 0;
 }
@@ -658,9 +661,9 @@ section {
   top: calc(50% - 30px);
 }
 
-/*--------------------------------------------------------------
+/*
 # Frequently Asked Questions
---------------------------------------------------------------*/
+*/
 .faq {
   padding: 60px 0;
 }
@@ -710,9 +713,9 @@ section {
   content: "\eab2" !important;
 }
 
-/*--------------------------------------------------------------
+/*
 # Our Team
---------------------------------------------------------------*/
+*/
 .team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -764,9 +767,9 @@ section {
   margin: 0 2px;
 }
 
-/*--------------------------------------------------------------
+/*
 # Contact Us
---------------------------------------------------------------*/
+*/
 .contact .contact-about h3 {
   font-size: 36px;
   margin: 0 0 10px 0;
@@ -908,9 +911,9 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
+/*
 # Map
---------------------------------------------------------------*/
+*/
 .map {
   padding: 0;
   margin-bottom: -10px;
@@ -922,9 +925,9 @@ section {
   height: 380px;
 }
 
-/*--------------------------------------------------------------
+/*
 # Footer
---------------------------------------------------------------*/
+*/
 #footer {
   background-color: rgb(30, 30, 30,0.9);
   padding: 8px 0;

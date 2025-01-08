@@ -19,6 +19,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Lato", sans-serif;
+
 }
 
 /*
@@ -991,4 +992,8 @@ section {
 }
 .directions:active{
   background-color: #055d9b;
+}
+.container--3{
+  width: 275px;
+  
 }

@@ -249,12 +249,12 @@
 
 <body>
 
-  <header id="header" class="fixed-top">
+  <header id="header" class="fixed-top" style="font-weight: 600;">
     <div class="container">
 
       <div class="logo float-left">
         
-         <h1 class="text-light"><a href="index.html"><span>GASTECH SOLUTIONS</span></a></h1>
+         <h1 class="text-light"><a href="index.html"><span class="text-title">GASTECH SOLUTIONS</span></a></h1>
         <a href="/"><img src="assets/img/logo.png" alt="" class="logoo"></a>
       </div>
 
@@ -285,7 +285,7 @@
       <div class="carousel-inner" role="listbox">
        <!-- Slide One - Set the background video for this slide -->
 <div class="carousel-item active" data-interval="15000">
-  <video autoplay loop muted playsinline style="width: 100%; height: auto; object-fit: contain;">
+  <video autoplay loop muted playsinline class="video-background" style="width: 100%; height: 800px;  object-fit: cover;">
     <source src="assets/video/background-video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -569,23 +569,23 @@ meet the emerging business environments. We achieve this through:</p>
     </section>
 
     <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact section-bg" style="color: #fff;">
-      <div class="container">
+    <section id="contact" class="contact-section-bg" style="color: #ffffff; background-image: url(assets/img/abcd.jpg); background-size:cover;">
+      <div class="container" >
 
-        <div class="row">
+        <div class="row" style="background-color: rgba(16, 15, 15, 0.732); border-radius: 20px;" >
 
-          <div class="col-lg-4 col-md-6">
-            <div class="contact-about">
+           <div class="col-lg-4 col-md-6 ">
+            <div class="contact-about" style="margin-top: 25px;">
               <h3>GASTECH SOLUTIONS</h3>
               <p>Delivering relevant technologies for our times</p>
-              <div class="social-links">
-                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+              <div class="social-links"style="margin-right: 25px;">
+                <a href="" target="_blank" class="linkedin"><i class="icofont-linkedin"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="info">
+            <div class="info" style="margin-top: 25px;">
               <div>
                 <i class="icofont-google-map"></i>
                 <p>Regd. Office: 601/A, Sannidhi Park, Hari Om Nagar, Mulund(East), Mumbai - 400 081</p>
@@ -600,10 +600,10 @@ meet the emerging business environments. We achieve this through:</p>
             </div>
           </div>
 
-          <div class="col-lg-5 col-md-12">
+          <div class="col-lg-5 col-md-12" style="margin-top: 25px; margin-bottom: 25px;">
             <form action="https://api.web3forms.com/submit" method="POST" role="form">
               <!-- Web3Forms access key  -->
-              <input type="hidden" name="access_key" value="8ee7c2dc-619e-43de-94f0-71c6c6856d01" />
+              <input type="hidden" name="access_key" value="d420419e-5b05-4577-985d-2a14458e556b" />
           
               <div class="form-group">
                 <input
@@ -625,6 +625,19 @@ meet the emerging business environments. We achieve this through:</p>
                   id="email"
                   placeholder="Your Email"
                   required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  name="phone number"
+                  class="form-control"
+                  id="telephone"
+                  placeholder="Your Phone Number"
+                  minlength="10"
+                  maxlength="10"
+                  required
+    
                 />
               </div>
               
@@ -652,7 +665,7 @@ meet the emerging business environments. We achieve this through:</p>
               </div>
           
               <!--  input for redirect or thank you message -->
-              <input type="hidden" name="redirect" value="http://127.0.0.1:5500/index.html" />
+              <input type="hidden" name="redirect" value="index.html" />
           
               <div class="text-center">
                 <button class="btn-btn-info" type="submit" ">Send Message</button>

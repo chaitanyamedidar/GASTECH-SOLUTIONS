@@ -8,11 +8,11 @@ body {
   color: #777;
 }
 
-a {
-  color: #43aea0;
+.linkedin{
+  color: #0077b5;
+  
 }
-
-a:hover {
+.linkedin:hover {
   color: #00d3b8;
   text-decoration: none;
 }
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .back-to-top:hover {
   color: #fff;
   background: #8bc6bf;
-  transition: background 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /*
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background : rgb(134, 123, 11);
+  background : rgb(201, 179, 0);
 }
 
 #header.header-scrolled {
@@ -97,6 +97,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0px;
   left: 120px;
   transition: all 0.5s;
+  padding-right: 10px;
 }
 #header.header-scrolled .logo img {
   height: 60px;
@@ -150,6 +151,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color:rgb(198, 183, 14); /* Black color for the text */
   text-decoration: none;
 }
+.text-title{
+color: #000000;
+transition: color 0.4s;
+}
+#header.header-scrolled .text-title{
+color: #ffffff;
+}
+
 
 
 .nav-menu .drop-down ul {
@@ -457,7 +466,7 @@ section {
 }
 
 .section-bg, .section-bg a, .section-bg h2 {
-  background-color: rgb(171, 161, 46);
+  background-color: rgb(227, 209, 4);
   color: #141313 !important;
 }
 
@@ -1002,4 +1011,7 @@ section {
 .container--3{
   width: 275px;
   
+}
+.contact-section-bg{
+ background-color:#000000
 }

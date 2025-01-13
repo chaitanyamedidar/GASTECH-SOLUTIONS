@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background:rgba(0, 0, 0, 0.9);
+  background:rgba(0, 0, 0, 0.7);
   height: 60px;
   padding: 10px 0;
   
